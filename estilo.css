@@ -1,5 +1,7 @@
 body {
-  background-color: rgb(223, 168, 255)
+  background-color: rgb(255, 181, 230);
+  margin: 0;
+  padding: 0;
 }
 h1 {
   text-align: center;
@@ -10,7 +12,7 @@ h1 {
    left: 0;
    width: 100%;
    height: 45px;
-   background: rgb(73, 23, 121);
+   background: rgb(255, 104, 247);
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav ul {
@@ -30,8 +32,8 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-   color: black;
-   background: rgb(187, 145, 214);
+   color: rgb(0, 0, 0);
+   background: rgb(178, 137, 255);
 }
 #camaleao {
   width: 15%;
@@ -42,11 +44,26 @@ li a:hover {
   left: 0;
   width: 90%;
   height: 155px;
-  background: rgb(255, 239, 95);
+  background: rgb(149, 255, 154);
   margin: 20px;
   border-width: 20px;
-  border-color: rgb(255, 232, 129);
+  border-color: rgb(136, 136, 255);
   border-style: solid;
   padding: 20px;
   display: flex;
   justify-content: center;
+}
+.rodape {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 35px;
+   background: palevioletred;
+   color: blanchedalmond;
+   display: flex;
+   justify-content: center;
+}
+.conteudo {
+   position: absolute;
+   top: 45px;
+}
