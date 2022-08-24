@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 181, 230);
+  background-color: rgb(215, 255, 222);
   margin: 0;
   padding: 0;
 }
@@ -25,7 +25,7 @@ h2 {
    left: 0;
    width: 100%;
    height: 45px;
-   background: rgb(255, 104, 247);
+   background: rgb(80, 134, 48);
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav ul {
@@ -46,7 +46,7 @@ li a {
 }
 li a:hover {
    color: rgb(0, 0, 0);
-   background: rgb(178, 137, 255);
+   background: rgb(35, 255, 119);
 }
 #camaleao {
   width: 15%;
@@ -57,7 +57,7 @@ li a:hover {
   left: 0;
   width: 90%;
   height: 155px;
-  background: rgb(149, 255, 154);
+  background: rgb(255, 179, 149);
   margin: 20px;
   border-width: 20px;
   border-color: rgb(136, 136, 255);
